@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<title> im beeyyyoonnccceee </title>
+<body>
+
+
+<font style = "color:blue"> <u> i like cornbeans and collard greens rosie </u> </font>
+
+<div>
+YO RANDOM OCCUPATION is {{chosen}}
+</div>
+<table border = "2">
+{% for key, value in occu.items() %}
+<tr>
+<td>
+    {{key}}
+</td>
+    
+<td>
+    {{value[0]}}
+</td>
+<td>
+    <a href = "{{value[1]}}"> click here for helpful link for {{key}}</a>
+</td>
+
+    
+
+    
+</tr>
+{% endfor %}
+
+
+</table>
+
+</body>
+
+
+
+</html>
